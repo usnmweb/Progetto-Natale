@@ -27,7 +27,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  background-color: #f5d12ee0;
+  /* background-color: #f5d12ee0; */
+  background: #031c2a;
 }
 .logo {
   width: 2vw;
@@ -206,13 +207,13 @@ h1 {
 
 .art {
   display: inline-flex;
-  height: 500px;
+  height: 430px;
   padding: 5px;
 }
 
 .img {
   max-width: 300px;
-  max-height: 400px;
+  height: 400px;
   border: 3px solid white;
   padding: 5px;
 }
@@ -230,10 +231,25 @@ h1 {
 
 .slot {
   border: 3px solid green;
+  border-radius: 25%;
   padding: 10px;
   background-color: rgb(5, 178, 5);
 }
 
 .description h2 {
   padding: 15px 0px 15px 0px;
+}
+
+.adv_section {
+  border: 3px solid white;
+  height: 10rem;
+  background-color: white;
+  align-items: center;
+}
+
+.adv {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: 3px solid red;
+  height: 9rem;
 }
