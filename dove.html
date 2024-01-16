@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cinema Odeon - Prezzi e Contatti</title>
+
+    <meta name="description" content="Sito web del Cinema Odeon Multisala" />
+    <meta
+      name="keywords"
+      content="Cinema, Avola, Film in uscita, Recensioni cinematografiche, Trailer film, Attori e attrici, Registi famosi, Oscar 2023, Classifica film, Programma cinema, Orari proiezioni"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="home.html"
+          ><img class="log" src="Schermata Logo.png" alt="Logo" width="150px"
+        /></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="dove.html">Prezzi e Contatti</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <div class="section">
+        <div class="price">
+          <div class="pcat">
+            <h3>LISTINO Prime Visioni</h3>
+            <div class="tariffe">
+              <span>Biglietto intero: € 7,00 </span
+              ><span>Ridotto OVER 65: € 6,00</span
+              ><span>Ridotto UNDER 6 ANNI: € 5,00</span>
+            </div>
+          </div>
+          <div class="pcat">
+            <h3>LISTINO 3D</h3>
+            <div class="tariffe">
+              <span>Biglietto intero: € 8,00</span
+              ><span>Biglietto ridotto: € 7,00</span>
+            </div>
+          </div>
+          <div class="pcat">
+            <h3>LISTINO ARENA 2023</h3>
+            <div class="tariffe">
+              <span>Per i film italiani ed europei</span>
+
+              <span
+                >Biglietto UNICO: € 3,50 promo “Cinema Revolution - Che
+                Spettacolo l'Estate”</span
+              >
+            </div>
+            <h3>Per i film extra-europei</h3>
+            <div class="tariffe">
+              <span>Biglietto UNICO: € 5,00</span>
+            </div>
+          </div>
+          <div class="pcat">
+            <h3>Il ridotto vale per:</h3>
+            <div class="tariffe">
+              <span
+                >i bimbi fino a 6 anni gli over 65 i militari (con tesserino) i
+                disabili (con tesserino) tesserati Anec-Agis (dal lun. al ven.
+                /eccetto 3D)</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pbott">
+        <p>
+          Il pagamento del biglietto è possibile sia in contanti sia con
+          Bancomat. Per evitare le code, vi preghiamo di premunirvi dei soldi
+          del biglietto prima di accedere al botteghino. Grazie per la
+          collaborazione
+        </p>
+      </div>
+      <hr />
+
+      <div class="nwmp">
+        <div class="tariffe">
+          <h2>Dove Trovarci</h2>
+          <span>Indirizzo: Corso Garibaldi, 95, 96012 Avola SR</span>
+          <span>Telefono: 0931 831267</span>
+        </div>
+        <div class="end cent">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.3133768888824!2d15.133301076420386!3d36.90677106168389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13122eb022a63bc3%3A0x1fbcb4ed864fab15!2sOdeon%20di%20Antonelli%20Alessandro%20e%20Claudia%20S.N.C.!5e0!3m2!1sit!2sit!4v1705423231800!5m2!1sit!2sit"
+            width="600"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="end black">
+        <div class="cont">
+          <h2>
+            Desideri ricevere la nostra Newsletter settimanale su whatsapp?
+          </h2>
+          <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="surname">Cognome:</label>
+            <input type="text" id="surname" name="surname" required />
+
+            <label for="phonenumber">Numero di Telefono:</label>
+            <input type="number" id="telnum" name="telnum" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="consent"
+              >Consenso trattamento dei dati:
+              <input type="checkbox" id="consent" name="consent" required
+            /></label>
+
+            <button type="submit">Invia</button>
+          </form>
+          <p id="success-message"></p>
+        </div>
+      </div>
+    </main>
+    <footer class="ftr">
+      <h4>
+        ODEON di Antonelli Alessandro e Claudia s.n.c. - C.so Garibaldi 95,
+        96012 Avola(SR) P.IVA 016990230899 | info@odeonavola.it
+      </h4>
+    </footer>
+  </body>
+</html>
